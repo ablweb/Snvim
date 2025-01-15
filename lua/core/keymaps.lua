@@ -6,10 +6,10 @@ local map = vim.keymap.set
 map("i", "<C-b>", "<ESC>^i", { desc = "Beginning of line" })
 map("i", "<C-e>", "<End>", { desc = "End of line" })
 -- Navigate in insert mode
-map("i", "<c-k>", "<Left>", { desc = "Move left" })
-map("i", "<c-j>", "<Right>", { desc = "Move right" })
-map("i", "<c-h>", "<Down>", { desc = "Move down" })
-map("i", "<c-l>", "<Up>", { desc = "Move up" })
+map("i", "<c-k>", "<Up>", { desc = "Move left" })
+map("i", "<c-j>", "<Down>", { desc = "Move right" })
+map("i", "<c-h>", "<Left>", { desc = "Move down" })
+map("i", "<c-l>", "<Right>", { desc = "Move up" })
 -- exit insert mode
 map("i", "jk", "<esc>", { desc = "Exit insert mode" })
 

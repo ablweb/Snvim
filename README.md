@@ -1,6 +1,56 @@
 # Snvim
 My simple Neovim configuration
 
+## Installation
+All packages are installed automatically by lazy
+
+## Features
+- File tree
+- undo tree
+- move between windows easily
+- focus mode
+- latex support
+- lsp and completion
+- copilot available
+- terminal integration
+
+## Keybindings
+- move between windows
+  - Ctrl h : move focus left
+  - Ctrl l : move focus right
+  - Ctrl j : move focus down
+  - Ctrl k : move focus up
+  - Leader b : new buffer
+- line numbers
+  - Leader n : toggle line numbers
+  - Leader rn : toggle relative numbers
+- terminal
+  - Leader tt : open system default terminal
+  - Alt i : toggle floating terminal
+  - Alt h : toggle horizontal terminal
+  - Alt v : toggle vertical terminal
+  - Alt r : reset focused terminal
+  - Ctrl x : exit terminal mode
+
+- Ctrl   n   : toggle file tree 
+- leader fc  : focus on current file buffer in file tree
+- leader cd  : cd in folder under cursor
+- leader e   : go to next error
+- leader a   : show action suggestion
+- leader cop : toggle copilot
+  - alt  y   : accept suggestion
+  - alt  l   : accept line
+  - alt  w   : accept word
+  - alt  -   : next suggestion
+  - alt  )   : previous suggestion
+  - alt 
+- leader r   : compile and view latex file
+- leader zn  : toggle zen-mode
+
+
+## Requirements
+_Provide any prerequisites for using this configuration (e.g., Neovim version, external tools, or dependencies)._
+
 ## Plugins
 - **File Explorer and Icons**
   - [nvim-tree/nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
@@ -33,31 +83,6 @@ My simple Neovim configuration
   - [mbbill/undotree](https://github.com/mbbill/undotree)
 - **Terminal Integration**
   - [NvChad/nvterm](https://github.com/NvChad/nvterm)
-
-## Installation
-All packages are installed automatically by lazy
-
-## Keybindings
-- Ctrl n     : toggle file tree 
-- leader fc  : focus on current file buffer in file tree
-- leader cd  : cd in folder under cursor
-- leader e   : go to next error
-- leader a   : show action suggestion
-- leader cop : toggle copilot
-  - alt y    : accept suggestion
-  - alt l    : accept line
-  - alt w    : accept word
-  - alt -    : next suggestion
-  - alt )    : previous suggestion
-  - alt 
-- leader r   : compile and view latex file
-- leader zn  : toggle zen-mode
-
-## Features
-_Describe the main features and customizations of your Neovim setup._
-
-## Requirements
-_Provide any prerequisites for using this configuration (e.g., Neovim version, external tools, or dependencies)._
 
 ## Troubleshooting
 _Add solutions or tips for resolving common issues encountered with this setup._
