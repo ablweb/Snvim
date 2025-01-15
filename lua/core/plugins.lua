@@ -2,10 +2,8 @@ require("lazy").setup({
   "nvim-tree/nvim-tree.lua",
   "nvim-tree/nvim-web-devicons",
   "ellisonleao/gruvbox.nvim",
-  "nvim-lualine/lualine.nvim",
   "nvim-treesitter/nvim-treesitter",
   "lewis6991/gitsigns.nvim",
-  "mbbill/undotree",
   -- completion
   "hrsh7th/nvim-cmp",
   "hrsh7th/cmp-nvim-lsp",
@@ -25,6 +23,7 @@ require("lazy").setup({
     run = "cd app && npm install",
   },
   -- others
+  "mbbill/undotree",
   "lervag/vimtex",
   "folke/zen-mode.nvim",
   "NvChad/nvterm"

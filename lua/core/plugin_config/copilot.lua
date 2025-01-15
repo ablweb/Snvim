@@ -16,7 +16,7 @@ vim.keymap.set("i", "<M-w>", "<Plug>(copilot-accept-word)")
 vim.keymap.set("i", "<M-l>", "<Plug>(copilot-accept-line)")
 vim.keymap.set("i", "<M-->", "<Plug>(copilot-next)")
 vim.keymap.set("i", "<M-)>", "<Plug>(copilot-previous)")
-vim.keymap.set("i", "/", "<Plug>(copilot-dismiss)")
+vim.keymap.set("i", "<M-/>", "<Plug>(copilot-dismiss)")
 vim.keymap.set("n", "<leader>cop", function ()
   vim.g.copilot_enabled = not vim.g.copilot_enabled
   print("Copilot: " .. (vim.g.copilot_enabled and "Enabled" or "Disabled"))
