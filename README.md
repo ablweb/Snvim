@@ -31,25 +31,34 @@ All packages are installed automatically by lazy
   - Alt v : toggle vertical terminal
   - Alt r : reset focused terminal
   - Ctrl x : exit terminal mode
-
-- Ctrl   n   : toggle file tree 
-- leader fc  : focus on current file buffer in file tree
-- leader cd  : cd in folder under cursor
-- leader e   : go to next error
-- leader a   : show action suggestion
-- leader cop : toggle copilot
-  - alt  y   : accept suggestion
-  - alt  l   : accept line
-  - alt  w   : accept word
-  - alt  -   : next suggestion
-  - alt  )   : previous suggestion
-  - alt 
-- leader r   : compile and view latex file
-- leader zn  : toggle zen-mode
-
+- file tree
+  - Ctrl n : toggle file tree 
+  - leader fc : focus on current file buffer in file tree
+  - leader cd : cd in folder under cursor
+- undo tree
+  - leader u : toggle undo tree
+- focus mode
+  - leader zn : toggle zen-mode
+- latex
+  - leader r : compile and view latex file
+- lsp
+  - Ctrl y : confirm completion
+  - Ctrl n : next completion
+  - Ctrl p : previous completion
+  - Ctrl l : abort completion
+  - leader e : go to next error
+  - leader a : show action suggestion
+- copilot
+  - leader cop : toggle copilot
+  - alt y : accept suggestion
+  - alt l : accept line
+  - alt w : accept word
+  - alt - : next suggestion
+  - alt ) : previous suggestion
+  - alt / : dismiss suggestion
 
 ## Requirements
-_Provide any prerequisites for using this configuration (e.g., Neovim version, external tools, or dependencies)._
+IDK
 
 ## Plugins
 - **File Explorer and Icons**
@@ -83,12 +92,3 @@ _Provide any prerequisites for using this configuration (e.g., Neovim version, e
   - [mbbill/undotree](https://github.com/mbbill/undotree)
 - **Terminal Integration**
   - [NvChad/nvterm](https://github.com/NvChad/nvterm)
-
-## Troubleshooting
-_Add solutions or tips for resolving common issues encountered with this setup._
-
-## Contributing
-_If applicable, explain how others can contribute to improving this configuration._
-
-## License
-_Specify the license under which this configuration is shared (e.g., MIT License)._
