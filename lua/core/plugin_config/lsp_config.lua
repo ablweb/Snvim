@@ -1,5 +1,5 @@
 require("mason-lspconfig").setup({
-  ensure_installed = { "lua_ls", "clangd", "pyright", "ltex", "rust_analyzer" }
+  ensure_installed = { "lua_ls", "clangd", "pyright", "ltex", "rust_analyzer", "html", "css_variables" }
 })
 
 local lspconfig = require('lspconfig')
