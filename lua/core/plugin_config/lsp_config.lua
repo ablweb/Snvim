@@ -29,7 +29,6 @@ require("lspconfig").lua_ls.setup {
   }
 }
 require("lspconfig").gopls.setup({})
-require("lspconfig").tailwindcss.setup({})
 require("lspconfig").clangd.setup{}
 require("lspconfig").lua_ls.setup{}
 require("lspconfig").ltex.setup{}
